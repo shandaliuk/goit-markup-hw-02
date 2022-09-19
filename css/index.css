@@ -20,8 +20,13 @@ body {
   list-style: none;
 }
 
-.main-logo {
+.main-logo-header {
   color: var(--black-color);
+  text-decoration: none;
+}
+
+.main-logo-footer {
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -65,4 +70,17 @@ body {
 
 .title {
   color: var(--secondary-text-color);
+}
+
+.site-footer {
+  background-color: var(--footer-color);
+}
+
+.company-adress .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.company-adress .adress {
+  color: var(--white-color);
 }
