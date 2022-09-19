@@ -48,3 +48,17 @@ body {
 .site-contacts .link:focus {
   color: var(--accent-color);
 }
+
+.hero {
+  background-color: var(--footer-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
