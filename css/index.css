@@ -1,0 +1,50 @@
+/* Color palette */
+/* Main text color #757575 */
+/* Secondary text color #212121 */
+/* Accent #2196F3 */
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --footer-color: #2f303a;
+}
+
+body {
+  background-color: var(--main-white-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.main-logo {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-contacts .link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-color);
+}
