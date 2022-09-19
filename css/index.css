@@ -50,7 +50,9 @@ body {
 }
 
 .site-contacts .link:hover,
-.site-contacts .link:focus {
+.site-contacts .link:focus,
+.company-address .link:hover,
+.company-address .link:focus {
   color: var(--accent-color);
 }
 
@@ -76,11 +78,11 @@ body {
   background-color: var(--footer-color);
 }
 
-.company-adress .link {
+.company-address .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
-.company-adress .adress {
+.company-address .address {
   color: var(--white-color);
 }
