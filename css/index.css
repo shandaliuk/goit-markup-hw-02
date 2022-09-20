@@ -21,17 +21,35 @@ body {
   list-style: none;
 }
 
-.main-logo-header {
+.main-logo-header,
+.main-logo-footer {
   color: var(--black-color);
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .main-logo-footer {
   color: var(--white-color);
-  text-decoration: none;
 }
 
 .logo-part {
+  color: var(--accent-color);
+}
+
+.site-header .list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-header .link:hover,
+.site-header .link:focus {
   color: var(--accent-color);
 }
 
@@ -40,21 +58,9 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
 .site-contacts .link {
   color: var(--main-text-color);
   text-decoration: none;
-}
-
-.site-contacts .link:hover,
-.site-contacts .link:focus,
-.company-address .link:hover,
-.company-address .link:focus {
-  color: var(--accent-color);
 }
 
 .hero {
@@ -64,19 +70,69 @@ body {
 
 .hero-title {
   color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-btn {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .title {
   color: var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.company-characteristics .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.company-characteristics .text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+}
+
+.company-activities .title,
+.company-team .title {
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 
 .company-team {
   background-color: var(--tertiary-background-color);
+}
+
+.company-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.company-team .text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .company-team .list-item {
@@ -85,6 +141,11 @@ body {
 
 .site-footer {
   background-color: var(--secondary-background-color);
+}
+
+.company-address .link:hover,
+.company-address .link:focus {
+  color: var(--accent-color);
 }
 
 .company-address .link {
