@@ -153,3 +153,36 @@ body {
 .company-address .address {
   color: var(--white-color);
 }
+
+.site-filter .button {
+  background-color: var(--tertiary-background-color);
+  color: var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.site-filter .button:hover,
+.site-filter .button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.work-samples .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.work-samples .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.work-samples .list-item {
+  background-color: var(--white-color);
+}
