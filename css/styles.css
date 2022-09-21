@@ -12,6 +12,10 @@
   --tertiary-background-color: #f5f4fa;
 }
 
+/* Index */
+
+/* Body */
+
 body {
   background-color: var(--white-color);
   color: var(--main-text-color);
@@ -19,9 +23,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* For every element in lists */
+
 .list {
   list-style: none;
 }
+
+/* Logo */
 
 .main-logo-header,
 .main-logo-footer {
@@ -40,6 +48,8 @@ body {
 .logo-part {
   color: var(--accent-color);
 }
+
+/* Header */
 
 .site-header .list {
   font-weight: 500;
@@ -63,6 +73,8 @@ body {
   text-decoration: none;
 }
 
+/* Hero */
+
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
@@ -84,13 +96,18 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
+
+/* For every title */
 
 .title {
   color: var(--secondary-text-color);
   font-weight: 700;
   text-align: center;
 }
+
+/* Company characteristics section */
 
 .company-characteristics .title {
   font-size: 14px;
@@ -104,14 +121,25 @@ body {
   line-height: 1.71;
 }
 
-.company-activities .title,
-.company-team .title {
+/* Company activities section */
+
+.company-activities .title {
   font-size: 36px;
   line-height: 1.67;
 }
 
+/* Company team section */
+
 .company-team {
   background-color: var(--tertiary-background-color);
+}
+
+.company-team .main-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 
 .company-team .title {
@@ -129,6 +157,8 @@ body {
 .company-team .list-item {
   background-color: var(--white-color);
 }
+
+/* Footer */
 
 .site-footer {
   background-color: var(--secondary-background-color);
@@ -154,6 +184,10 @@ body {
   color: var(--white-color);
 }
 
+/* Portfolio */
+
+/* Fiter buttons */
+
 .site-filter .button {
   background-color: var(--tertiary-background-color);
   color: var(--secondary-text-color);
@@ -163,6 +197,7 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .site-filter .button:hover,
@@ -170,6 +205,8 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+
+/* Work samples */
 
 .work-samples .title {
   font-size: 18px;
@@ -186,6 +223,8 @@ body {
 .work-samples .list-item {
   background-color: var(--white-color);
 }
+
+/* Current page colorizing */
 
 .site-nav .current-page {
   color: var(--accent-color);
