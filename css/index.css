@@ -186,3 +186,7 @@ body {
 .work-samples .list-item {
   background-color: var(--white-color);
 }
+
+.site-nav .current-page {
+  color: var(--accent-color);
+}
